@@ -1,5 +1,5 @@
 ---
-title: WebCollection
+title: 2018作品集
 url: 22.html
 id: 22
 comments: false
@@ -51,8 +51,8 @@ Jennifer Dewalt 的網站連結: {% post_link 180-websites-in-180-days %}
 **Udemy 線上課程: Easy HTML5 + CSS3 + Bootstrap Web Design for Beginners**
 課程心得: {% post_link udemy-web-classpart-1-easy-html5-css3-bootstrap-web-design-for-beginners %}
 
-- 20180710 [Shirley's Travel](http://htmlpreview.github.io/?https://github.com/HsinShan/01-HTML5-CSS3-Bootstrap/blob/master/travelindex.html)(Bootstrap)
-- 20180706 [Shirley's Dessert](http://htmlpreview.github.io/?https://github.com/HsinShan/01-HTML5-CSS3-Bootstrap/blob/master/Shirley's%20Dessert.html)(Bootstrap)
+- 20180710 [Shirley Travel](http://htmlpreview.github.io/?https://github.com/HsinShan/01-HTML5-CSS3-Bootstrap/blob/master/travelindex.html)(Bootstrap)
+- 20180706 [Shirley Dessert](http://htmlpreview.github.io/?https://github.com/HsinShan/01-HTML5-CSS3-Bootstrap/blob/master/Shirley's%20Dessert.html)(Bootstrap)
 - 20180705 [Bulldogs](http://htmlpreview.github.io/?https://github.com/HsinShan/01-HTML5-CSS3-Bootstrap/blob/master/Bulldogs.html)(Bootstrap)
 - 20180704 [My favorite book](http://htmlpreview.github.io/?https://github.com/HsinShan/01-HTML5-CSS3-Bootstrap/blob/master/My%20favorate%20book.html) (Bootstrap)
 - 20180703 [About Shirley](http://htmlpreview.github.io/?https://github.com/HsinShan/01-HTML5-CSS3-Bootstrap/blob/master/About%20Shirley.html)

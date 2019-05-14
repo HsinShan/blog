@@ -93,11 +93,12 @@ index_with_subtitle: false
 menu:
   Home: / || home
   #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  # tags: /tags/ || tags
+  # categories: /categories/ || th
   Archives: /archives/ || archive
   TechNote: /technote/ || list-alt
-  WebCollection: /collection || server
+  Collection(2019): /collection-2019 || server
+  Collection(2018): /collection-2018 || server
   #commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons.

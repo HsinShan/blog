@@ -2,6 +2,7 @@
 title: Lifecycle
 tags:
   - vue-tutorial
+  - lifecycle
 url: 225.html
 id: 225
 categories:
