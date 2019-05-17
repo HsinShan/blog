@@ -3,6 +3,7 @@ title: Lifecycle
 tags:
   - vue-tutorial
   - lifecycle
+  - memory leak
 url: 225.html
 id: 225
 categories:
@@ -35,4 +36,5 @@ Vue 會將 data 跟 template 綁在一起，因此只需要定義好 data 的位
 **beforeDestroy**:組件被銷毀前呼叫
 **destroyed**:組件被銷毀後呼叫 component 銷毀方式: `vue.$destroy();`
 目的: Avoid Memory Leaks(內存洩漏) 因為 SPA 不會重複刷新頁面，所以 JS 應用需要自行清理組件確保垃圾回收是以預期的方式進行。
+Memory Leaks 當系統內存以等差級數增加時，到達某個極端點會造成該網頁 crash。 若是剛好在 server 用 browser 開啟該網頁，當內存過多造成 crash 時，也會使 server 因此掛掉。
 e.g. `v-if` 指令可以控制是否顯示在 DOM 在上面，不顯示則在 DOM 上是完全沒有此物件，但在 Memory 中並不會即時清理，所以在每次狀態改變時(即隱藏或顯示)，memory 會增加，因為並未被回收。 因此適當的銷毀可以保持小內存的開銷。

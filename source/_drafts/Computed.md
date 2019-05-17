@@ -7,4 +7,5 @@ categories:
 tags:
 ---
 
-computed內用到的data一旦改變就會啟動computed this的概念:只要在function中，就要注意他指到誰
+computed 內用到的 data 一旦改變就會啟動 computed
+this 的概念:只要在 function 中，就要注意他指到誰
