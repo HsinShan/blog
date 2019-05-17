@@ -34,6 +34,7 @@ $ heroku login
 step6: 再來 deploy 即可
 
 ```
+$ hexo generate //先產生靜態檔案
 $ hexo deploy
 ```
 
