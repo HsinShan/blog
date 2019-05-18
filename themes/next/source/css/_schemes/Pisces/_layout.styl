@@ -1,5 +1,5 @@
 .header {
-  position: relative;
+  position: fixed;
   margin: 0 auto;
   width: $main-desktop;
 
@@ -7,6 +7,7 @@
     width: auto;
   }
   +mobile() {
+    position: relative;
     width: auto;
   }
 }
@@ -16,7 +17,7 @@
   top: 0;
   overflow: hidden;
   padding: 0;
-  width: 240px;
+  width: 250px;
   background: white;
   box-shadow: $box-shadow-inner;
   border-radius: $border-radius-inner;
@@ -63,7 +64,7 @@
   padding: $content-desktop-padding;
   width: $content-desktop;
   background: white;
-  min-height: 700px;
+  min-height: calc(100vh - 50px);
   box-shadow: $box-shadow-inner;
   border-radius: $border-radius-inner;
 
