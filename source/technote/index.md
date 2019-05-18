@@ -22,6 +22,8 @@ date: 2019-05-01 09:23:02
   - {%post_link SPA%}
 - Javascript
   - {%post_link js-type%}
+  - {%post_link js-scope%}
+  - {%post_link js-scope-bug%}
 - CSS
   - {%post_link background-image%}
 - 計算機概論
