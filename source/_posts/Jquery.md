@@ -8,7 +8,7 @@ url: 263.html
 id: 263
 categories:
   - Frontend
-date: 2019-05-17 10:41:41
+date: 2019-04-17 10:41:41
 ---
 
 jQuery 為 Javascript 的 library，主要目的是為了**解決瀏覽器上的差異**，會不斷地隨著瀏覽器進化
