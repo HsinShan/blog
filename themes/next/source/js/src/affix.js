@@ -32,7 +32,7 @@
 
   Affix.VERSION = "3.3.5";
 
-  // Affix.RESET    = 'affix affix-top affix-bottom'
+  Affix.RESET = "affix affix-top affix-bottom";
 
   Affix.DEFAULTS = {
     offset: 0,
@@ -49,29 +49,29 @@
     var position = this.$element.offset();
     var targetHeight = this.$target.height();
 
-    // if (offsetTop != null && this.affixed == "top")
-    //   return scrollTop < offsetTop ? "top" : false;
+    if (offsetTop != null && this.affixed == "top")
+      return scrollTop < offsetTop ? "top" : false;
 
-    // if (this.affixed == "bottom") {
-    //   if (offsetTop != null)
-    //     return scrollTop + this.unpin <= position.top ? false : "bottom";
-    //   return scrollTop + targetHeight <= scrollHeight - offsetBottom
-    //     ? false
-    //     : "bottom";
-    // }
+    if (this.affixed == "bottom") {
+      if (offsetTop != null)
+        return scrollTop + this.unpin <= position.top ? false : "bottom";
+      return scrollTop + targetHeight <= scrollHeight - offsetBottom
+        ? false
+        : "bottom";
+    }
 
     var initializing = this.affixed == null;
     var colliderTop = initializing ? scrollTop : position.top;
     var colliderHeight = initializing ? targetHeight : height;
 
-    // if (offsetTop != null && scrollTop <= offsetTop) return "top";
-    // if (
-    //   offsetBottom != null &&
-    //   colliderTop + colliderHeight >= scrollHeight - offsetBottom
-    // )
-    //   return "bottom";
+    if (offsetTop != null && scrollTop <= offsetTop) return "top";
+    if (
+      offsetBottom != null &&
+      colliderTop + colliderHeight >= scrollHeight - offsetBottom
+    )
+      return "bottom";
 
-    // return false;
+    return false;
   };
 
   Affix.prototype.getPinnedOffset = function() {
@@ -124,11 +124,11 @@
         .trigger(affixType.replace("affix", "affixed") + ".bs.affix");
     }
 
-    // if (affix == "bottom") {
-    //   this.$element.offset({
-    //     top: scrollHeight - height - offsetBottom
-    //   });
-    // }
+    if (affix == "bottom") {
+      this.$element.offset({
+        top: scrollHeight - height - offsetBottom
+      });
+    }
   };
 
   // AFFIX PLUGIN DEFINITION
@@ -161,17 +161,17 @@
   // AFFIX DATA-API
   // ==============
 
-  // $(window).on("load", function() {
-  //   $('[data-spy="affix"]').each(function() {
-  //     var $spy = $(this);
-  //     var data = $spy.data();
+  $(window).on("load", function() {
+    $('[data-spy="affix"]').each(function() {
+      var $spy = $(this);
+      var data = $spy.data();
 
-  //     data.offset = data.offset || {};
+      data.offset = data.offset || {};
 
-  //     if (data.offsetBottom != null) data.offset.bottom = data.offsetBottom;
-  //     if (data.offsetTop != null) data.offset.top = data.offsetTop;
+      if (data.offsetBottom != null) data.offset.bottom = data.offsetBottom;
+      if (data.offsetTop != null) data.offset.top = data.offsetTop;
 
-  //     Plugin.call($spy, data);
-  //   });
-  // });
+      Plugin.call($spy, data);
+    });
+  });
 })(jQuery);

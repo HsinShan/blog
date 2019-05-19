@@ -1,0 +1,12 @@
+.skill {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skill > li {
+  list-style: none !important;
+  border-bottom: 2px #555 solid;
+  margin: 10px;
+  padding: 0 5px;
+  /* font-size: 20px; */
+}
