@@ -1,7 +1,5 @@
 ---
 title: 用socket.io做個即時互動的遊戲(未完成)
-tags:
-  - socket
 url: 249.html
 id: 249
 categories:
@@ -13,7 +11,8 @@ date: 2019-05-04 04:02:31
 
 老闆，來點寇汀吧:[https://www.youtube.com/watch?v=QVZcMx3jtG8&t=41s](https://www.youtube.com/watch?v=QVZcMx3jtG8&t=41s)
 
-Socket.io:可用於即時互動的使用者介面，將 server 中的資料，在每個使用者的介面上做最即時的同步 e.g. Agar.io
+**What is Socket.io?**
+**非通訊協議，只是 framework。**可用於即時互動的使用者介面，將 server 中的資料，在每個使用者的介面上做最即時的同步 e.g. Agar.io
 
 **What is socket?**
 socket 是通訊協定(電腦間對話的管道)，在電腦間建立通訊的管道
