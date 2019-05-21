@@ -9,7 +9,7 @@ date: 2019-05-01 09:23:02
 - Git
   - {%post_link git%}
   - {%post_link git2%}
-- Vue-tutorial
+- Vue
   - {%post_link v-html%}
   - {%post_link lifecycle%}
   - {%post_link v-pre-v-cloak-v-once%}
@@ -36,3 +36,4 @@ date: 2019-05-01 09:23:02
   - {%post_link Heroku%}
 - Database
   - {%post_link nosql%}
+  - {%post_link redis%}
