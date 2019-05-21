@@ -15,8 +15,6 @@ date: 2019-05-01 09:23:02
   - {%post_link v-pre-v-cloak-v-once%}
 - Vue 的疑難雜症
   - {%post_link router-v-s-eventBus%}
-- socket.io
-  - {%post_link 用socket.io做個即時互動的遊戲(未完成)%}
 - Frontend
   - {%post_link Jquery%}
   - {%post_link SPA%}
@@ -29,6 +27,9 @@ date: 2019-05-01 09:23:02
 - 計算機概論
   - {%post_link tcp-ip%}
   - {%post_link http%}
+- socket v.s Websocket
+  - {%post_link 用socket.io做個即時互動的遊戲(未完成)%}
+  - {%post_link websocket%}
 - Deploy
   - {%post_link Heroku%}
 - Database
