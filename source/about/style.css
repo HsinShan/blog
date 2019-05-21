@@ -3,6 +3,7 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: 0;
+  padding: 0;
 }
 .skill > li {
   list-style: none !important;
@@ -10,4 +11,19 @@
   margin: 10px;
   padding: 0 5px;
   /* font-size: 20px; */
+}
+.more_block {
+  display: flex;
+  justify-content: center;
+}
+.more {
+  margin: 30px;
+}
+@media all and (max-width: 1000px) {
+  .more_block {
+    display: block;
+  }
+  .more {
+    margin: 0;
+  }
 }
