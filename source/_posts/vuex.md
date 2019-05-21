@@ -15,7 +15,7 @@ categories:
 
 1.  提供**集中狀態管理**，主要核心為 store(倉庫)。當在大型專案中，平行 component 之間通常校頻繁的傳遞 data，若使用 event bus 會需要重複寫很多次，所以需要 vuex。
 2.  為**單向資料流**，不可逆。起始點都是 action，所以一切動作都必須在 action 新增方法，才有辦法執行動作。
-    <img src="https://az787680.vo.msecnd.net/user/kinanson/ce3f6acc-6cdc-48cf-90c1-7b10eed3f06a/1485575347_47001.png" alt="vuex" width="300px">
+    <img src="/images/vuex.png" alt="vuex" width="500px">
 
 **使用步驟**:
 
