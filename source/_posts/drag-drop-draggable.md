@@ -2,6 +2,9 @@
 title: vue-drag-drop 的 draggable 並無正常運作
 date: 2019-05-23 10:05:29
 tags:
+  - vue-drag-drop
+categories:
+  - NPM
 ---
 
 npm package : [vue-drag-drop](https://www.npmjs.com/package/vue-drag-drop)
