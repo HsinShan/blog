@@ -68,7 +68,7 @@ categories:
 
 原因=> **Vue 的 Reactivity( 響應式原理 )**
 詳細內容: [為什麼畫面沒有隨資料更新 - Vue 響應式原理（Reactivity）](https://pjchender.blogspot.com/2017/05/vue-vue-reactivity.html)
-在 `data(){}`中沒有被註冊到的物件，就不會有 reactive。雖然一開始有註冊 `phoneData`，但只有註冊他其中的兩個 property(id 和 name)，後來加上去的其他屬性都沒有被註冊，所以沒有不會響應式更新，所以 vue 監聽不到他的值已被 update。
+在 `data(){}`中沒有被註冊到的物件，就不會有 reactive。雖然一開始有註冊 `phoneData`，但只有註冊他其中的兩個 property(id 和 name)，後來加上去的其他屬性都沒有被註冊，所以不會響應式更新，因此 vue 監聽不到他的值已被 update。
 而 `number`的值為何會有呢? 因為 `number`是在 DOM render 前就取得，所以會被渲染出來。
 
 解決方式 =>
