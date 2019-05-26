@@ -17,7 +17,8 @@ date: 2019-05-19 21:34:26
     <div class="self_portfolio_block"><div class='self_img'><img src="./images/HappyTravel.jpg" /></div><div class='self_info'><p><strong>HappyTravel Club / 旅行社網站</strong></p><p>Html+CSS+Javascript+Bootstrap
    </p><div> <a href="https://hsinshan.github.io/Portfolio/HappyTravel Club/">DEMO</a><a href="https://github.com/HsinShan/Portfolio/tree/master/HappyTravel%20Club">原始碼</a></div></div></div>   
 </div>
-<h5> 一天一主題 in five days -- Javascript </h5>
+<h5> 一天一主題 in five days -- Javascript </h5>Jennifer Dewalt 的學習方式: 挑戰自己每天一網站
+
 <div class="self_block"><div class="js_block"><div class='self_img'><img src="./images/Coincollector.jpg" /></div><div class='self_info'><p><strong>Coincollector</strong></p><div> <a href="https://hsinshan.github.io/DailyChallenge/CoinCollector.html">DEMO</a><a href="https://github.com/HsinShan/DailyChallenge/blob/master/CoinCollector.html">原始碼</a></div></div></div>
     <div class="js_block"><div class='self_img'><img src="./images/BombNumber.jpg" /></div><div class='self_info'><p><strong>BombNumber</strong></p><div> <a href="https://hsinshan.github.io/DailyChallenge/bombnumber.html">DEMO</a><a href="https://github.com/HsinShan/DailyChallenge/blob/master/bombnumber.html">原始碼</a></div></div></div>  
     <div class="js_block"><div class='self_img'><img src="./images/Painter.jpg" /></div><div class='self_info'><p><strong>Painter</strong></p><div> <a href="https://hsinshan.github.io/DailyChallenge/painter.html">DEMO</a><a href="https://github.com/HsinShan/DailyChallenge/blob/master/painter.html">原始碼</a></div></div></div>

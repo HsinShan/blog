@@ -93,7 +93,7 @@ index_with_subtitle: false
 menu:
   Home: / || home
   About: /about/ || user
-  Portfolio: /portfolio/ || server
+  Collection: /portfolio/ || server
   # tags: /tags/ || tags
   # categories: /categories/ || th
   TechNote: /technote/ || list-alt
