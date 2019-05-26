@@ -97,7 +97,7 @@ menu:
   # tags: /tags/ || tags
   # categories: /categories/ || th
   TechNote: /technote/ || list-alt
-  Collection: /collection/ || server
+  # Collection: /collection/ || server
   Archives: /archives/ || archive
   #commonweal: /404/ || heartbeat
 
