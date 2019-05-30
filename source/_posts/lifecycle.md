@@ -19,7 +19,7 @@ Vue 會將 data 跟 template 綁在一起，因此只需要定義好 data 的位
 ---
 
 **beforeMount**:模板 (template) 編譯或掛載至 HTML 之前
-**mounted**:模板 (template) 編譯或掛載至 HTML 之後
+**mounted**:模板 (template) 編譯或掛載至 HTML 之後，DOM 渲染完畢
 
 ---
 
