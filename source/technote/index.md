@@ -29,8 +29,9 @@ date: 2019-05-01 09:23:02
 - CSS
   - {%post_link css-flexbox%}
   - {%post_link background-image%}
-- HTML5
+- HTML
   - {%post_link html5-tag%}
+  - {%post_link web-storage%}
 - NPM package
   - {%post_link drag-drop-draggable%}
 - 計算機概論
