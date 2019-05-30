@@ -29,7 +29,7 @@ Vue 會將 data 跟 template 綁在一起，因此只需要定義好 data 的位
 ---
 
 **activated**:keep-alive 用,組件被啟動時呼叫
-**deactivated**:keep-alive 用,組件被移除時呼叫 `<keep-alive></keep-alive>` 將其所包裹的組件狀態保留在內存中，所以當填表單有上一部或下一步時，可用於保存已填好的資料。 所以當 `<keep-alive></keep-alive>` 的組件被移除時，可用 deactivated 來進行清理內存或改變數據
+**deactivated**:keep-alive 用,組件被移除時呼叫 `<keep-alive></keep-alive>` 將其所包裹的組件狀態緩存，所以當填表單有上一步或下一步時，可用於保存已填好的資料。 所以當 `<keep-alive></keep-alive>` 的組件被移除時，可用 deactivated 來進行清理內存或改變數據
 
 ---
 
