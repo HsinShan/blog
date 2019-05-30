@@ -16,12 +16,12 @@ date: 2019-05-02 09:17:53
 ```
 
 Output:
-1 {{message}}→ 因為沒有被編譯
+1 `{{message}}`→ 因為沒有被編譯
 2 message 所存的值 使用 v-pre 可跳過每有指令的節點，加快編譯
 
 ---
 
-**v-cloak**: 解決 vue instance 完成編譯錢顯示的問題 通常會在 CSS 中加上
+**v-cloak**: 解決 vue instance 完成編譯前顯示的問題 通常會在 CSS 中加上
 
 ```Css
 [v-cloak]{
