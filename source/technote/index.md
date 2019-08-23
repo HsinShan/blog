@@ -15,6 +15,7 @@ date: 2019-05-01 09:23:02
   - {%post_link v-pre-v-cloak-v-once%}
   - {%post_link nexttick%}
   - {%post_link vuex%}
+  - {%post_link prop-data-render%}
 - Vue 的疑難雜症
   - {%post_link router-v-s-eventBus%}
   - {%post_link prop-naming%}
