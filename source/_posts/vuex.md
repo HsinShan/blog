@@ -8,7 +8,7 @@ categories:
   - vue
 ---
 
-**What is Vuex?**
+## What is Vuex?
 `Vue` + flu`x` = `vuex`
 
 特性:
@@ -17,7 +17,7 @@ categories:
 2.  為**單向資料流**，不可逆。起始點都是 action，所以一切動作都必須在 action 新增方法，才有辦法執行動作。
     <img src="/images/vuex.png" alt="vuex" width="500px">
 
-**使用步驟**:
+## 使用步驟
 
 1. 安裝 vuex：`npm install vuex --save`
 2. 在 `src` 資料夾新增 `index.js`
@@ -55,7 +55,7 @@ export default new Vuex.Store({
 ```
 
 - state: 管理狀態，單一狀態樹 (Single State Tree)
-- mutations: 同步改變狀態的方法，唯一可直接更改 state 的方法，透過 commit mutation 中的方法來改變 state。Mutation 必須是同步方法，如果需要非同步操作要放在 action 中。和 event 的概念類似，由事件類型 (type) 加上回調函數 (handler，在其中改變 state)組成。 => 有些專案可能會將 mutation.js 分成 type.js(定義 type)及 mutation.js(組合 type 和 handler)
+- mutations: 同步改變狀態的方法，**唯一可直接更改 state 的方法**，透過 commit mutation 中的方法來改變 state。Mutation 必須是同步方法，如果需要非同步操作要放在 action 中。和 event 的概念類似，由事件類型 (type) 加上回調函數 (handler，在其中改變 state)組成。 => 有些專案可能會將 mutation.js 分成 type.js(定義 type)及 mutation.js(組合 type 和 handler)
   範例:
 
 ```javascript
@@ -122,3 +122,8 @@ new Vue({
 ```
 
 **有些專案會將 state、mutations、getters、actions 個別獨立成檔放在 store 下**
+
+## 注意
+**絕對不能在 mutation 之外的地方更動 state**，連 action 也不行。在 strict mode 下，會嚴格執行此規則，任何可能造成在mutation 之外更動 state 的情況，都會報錯（`Error: [vuex] do not mutate vuex store state outside mutation handlers.`)。
+
+且 mutation 必為同步更動，所以也不能在 mutation 中呼叫另一個 mutation，因此當遇到此狀況時，需要用action才可以同時進行兩個 mutation。
