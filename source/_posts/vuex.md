@@ -55,7 +55,7 @@ export default new Vuex.Store({
 ```
 
 - state: 管理狀態，單一狀態樹 (Single State Tree)
-- mutations: 同步改變狀態的方法，唯一可直接更改 state 的方法，透過 commit mutation 中的方法來改變 state。ㄩ utation 必須是同步方法，如果需要非同步操作要放在 action 中。和 event 的概念類似，由事件類型 (type) 加上回調函數 (handler，在其中改變 state)組成。 => 有些專案可能會將 mutation.js 分成 type.js(定義 type)及 mutation.js(組合 type 和 handler)
+- mutations: 同步改變狀態的方法，唯一可直接更改 state 的方法，透過 commit mutation 中的方法來改變 state。Mutation 必須是同步方法，如果需要非同步操作要放在 action 中。和 event 的概念類似，由事件類型 (type) 加上回調函數 (handler，在其中改變 state)組成。 => 有些專案可能會將 mutation.js 分成 type.js(定義 type)及 mutation.js(組合 type 和 handler)
   範例:
 
 ```javascript
