@@ -20,6 +20,7 @@ date: 2019-05-01 09:23:02
   - {%post_link router-v-s-eventBus%}
   - {%post_link prop-naming%}
   - {%post_link DOM-array%}
+  - {%post_link vue-router-click-event%}
 - Frontend
   - {%post_link Jquery%}
   - {%post_link SPA%}
