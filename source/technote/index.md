@@ -28,6 +28,7 @@ date: 2019-05-01 09:23:02
 - Frontend
   - {%post_link Jquery%}
   - {%post_link SPA%}
+  - {%post_link virtual-DOM%}
 - Javascript
   - {%post_link js-type%}
   - {%post_link js-scope%}
