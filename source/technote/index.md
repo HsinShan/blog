@@ -9,6 +9,7 @@ date: 2019-05-01 09:23:02
 - Git
   - {%post_link git%}
   - {%post_link git2%}
+  - {%post_link git-advance%}
 - Vue
   - {%post_link v-html%}
   - {%post_link lifecycle%}

@@ -60,6 +60,7 @@ Commit: `git commit -m message`
 若在 code 不能跑或做到一半時，必須 commit 或切換 branch
 
 1. 可以在 message 中加上 temp，之後再修改 commit 訊息: `git commit -amend -m 新訊息` (修改後 commit id 會改變)
+   ※amend只能修改最後一次 commit 訊息
    ※注意: 修改 commit 要在 push 前
    ※commit id 用 HA-1（Secure Hash Algorithm 1）演算法所計算的結果，通常用前 7 位
 2. 用 `git stash` (看 {%post_link git2%})
