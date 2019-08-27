@@ -19,6 +19,7 @@ date: 2019-05-01 09:23:02
   - {%post_link prop-data-render%}
   - {%post_link vue-router-scrollBehavior%}
   - {%post_link vue-directive%}
+  - {%post_link localStorage-with-vuex%}
 - Vue 的疑難雜症
   - {%post_link router-v-s-eventBus%}
   - {%post_link prop-naming%}
