@@ -54,8 +54,8 @@ Vue.directive('click-outside', {
 ```
 最後只需在遇到 v-select 及 v-dialog 時，綁定此 directive 即可
 例如：
-``` javascript
-<v-select v-click-outside :items="items" placeholder="請選擇"/>
-```
+
+    <v-select v-click-outside :items="items" placeholder="請選擇"/>
+
 
 directive 想法來源文章：[Vue 自定义指令实现点击元素外触发事件](https://segmentfault.com/a/1190000017166675)

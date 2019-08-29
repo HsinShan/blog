@@ -9,10 +9,10 @@ categories:
 ---
 ## Problem
 在 `router-link` 中，click event 會無法運作
-``` Javascript
-<router-link ＠click="goNext" to="/">Home</router-link>
-// 並沒有進入 goNext 這個 method
-```
+
+    <router-link ＠click="goNext" to="/">Home</router-link>
+    // 並沒有進入 goNext 這個 method
+
 問題 issue : [Router-Link doesn't support v-on:click #800](https://github.com/vuejs/vue-router/issues/800)
 
 ## 解決方式

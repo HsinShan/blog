@@ -10,35 +10,35 @@ categories:
 使用 Javascript 的物件構成的樹狀 Virtual DOM，用來模擬真實的 DOM，所以和 DOM 有一一對應的關係，目前 react 跟 vue 皆使用 Virtual DOM。
 Virtual DOM 至少含有３個屬性，分別為 tag、props、children，在不同框架屬性名可能不同。
 
-``` javascript
-{
-  tag: 'div',
-  props: [ { 'id': 'childId' } ],
-  children: [
+
     {
       tag: 'div',
-      props: [],
+      props: [ { 'id': 'childId' } ],
       children: [
+        {
+          tag: 'div',
+          props: [],
+          children: [
+            {
+              tag: 'div',
+              props: [],
+              children: [...]
+            }
+          ]
+        },
         {
           tag: 'div',
           props: [],
           children: [...]
         }
-      ]
-    },
-    {
-      tag: 'div',
-      props: [],
-      children: [...]
+      ] 
     }
-  ] 
-}
-```
+
 而 Vue 的 Virtual DOM 即為 vNode!!
 
 ## Why Virtual DOM?
 目的：**不直接操作 DOM**，因為成本太高了！！
-
+  
 #### Performance(頁面渲染的性能分析)
 一般透過 chrome dev tool 可看出頁面渲染時，至少會經過四個階段
 **Loading(HTML 解析) -> Scripting(JS 運算)-> Rendering(生成渲染樹) -> Painting(繪製頁面)**

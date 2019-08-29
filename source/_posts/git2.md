@@ -29,7 +29,8 @@ https://stackoverflow.com/questions/3639342/whats-the-difference-between-git-res
 ---
 
 **cherry-pick** :拉別的分支的 commit(可用於要修復不同分支的共同 bug)
-`git cherry-pick <commit-id>`
+
+    $ git cherry-pick <commit-id>
 
 ---
 
