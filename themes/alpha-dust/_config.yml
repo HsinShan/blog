@@ -1,0 +1,48 @@
+# Logo (Font Awesome Class)
+fa_logo: fa-cube
+
+# Header
+menu:
+  Home: / 
+  About: /about/
+  Collection: /portfolio/
+  # tags: /tags/ || tags
+  # categories: /categories/ || th
+  TechNote: /technote/ 
+  # Collection: /collection/ || server
+  Archives: /archives/
+
+# Default post title
+default_post_title: Untitled
+
+# Archive Date Format
+archive_date_format: MMM YYYY
+
+# Comments.
+comments:
+  # Disqus comments
+  disqus_shortname:
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Social Accounts
+github_url: https://github.com/HsinShan 
+email_url: shirleyhsieh@gmail.com 
+# twitter_url: https://twitter.com/?lang=en
+# facebook_url: https://www.facebook.com/
+# instagram_url: https://www.instagram.com/
+# dribble_url: https://dribbble.com/
+# github_url: https://github.com/klugjo/hexo-theme-alpha-dust
+# googleplus_url: https://plus.google.com/
+# behance_url: https://www.behance.net/
+# fivehundredpx_url: https://500px.com/
+# email_url: test@example.com
+# rss_url: \#
+
+# Footer About Text
+footer_about: "This theme was developed by <a href=\"https://github.com/klugjo\">Jonathan Klughertz</a>, and customized by Shirley."
+
+# Footer Copyright Line
+# footer_copyright: "@Untitled. All right reserved | Design & Hexo <a href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
+

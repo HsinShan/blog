@@ -6,11 +6,12 @@ comments: false
 date: 2019-05-01 09:23:02
 ---
 
-- Git
+### ★ Git
   - {%post_link git%}
   - {%post_link git2%}
   - {%post_link git-advance%}
-- Vue
+  
+### ★ Vue
   - {%post_link v-html%}
   - {%post_link lifecycle%}
   - {%post_link v-pre-v-cloak-v-once%}
@@ -20,18 +21,21 @@ date: 2019-05-01 09:23:02
   - {%post_link vue-router-scrollBehavior%}
   - {%post_link vue-directive%}
   - {%post_link localStorage-with-vuex%}
-- Vue 的疑難雜症
+
+### ★ Vue 的疑難雜症
   - {%post_link router-v-s-eventBus%}
   - {%post_link prop-naming%}
   - {%post_link DOM-array%}
   - {%post_link vue-router-click-event%}
   - {%post_link vuetify-vSelect%}
-- Frontend
+
+### ★ Frontend
   - {%post_link Jquery%}
   - {%post_link SPA%}
   - {%post_link webpack%}
   - {%post_link virtual-DOM%}
-- Javascript
+
+### ★ Javascript
   - {%post_link js-type%}
   - {%post_link js-scope%}
   - {%post_link js-scope-bug%}
@@ -39,26 +43,34 @@ date: 2019-05-01 09:23:02
   - {%post_link js-closure%}
   - {%post_link js-eval%}
   - {%post_link debounce-and-throttle%}
-- CSS
+
+### ★ CSS
   - {%post_link css-flexbox%}
   - {%post_link background-image%}
-- HTML
+
+### ★ HTML
   - {%post_link html5-tag%}
   - {%post_link web-storage%}
-- NPM package
+
+### ★ NPM package
   - {%post_link drag-drop-draggable%}
   - {%post_link momentJS-warning%}
-- 計算機概論
+
+### ★ 計算機概論
   - {%post_link tcp-ip%}
   - {%post_link http%}
-- socket v.s Websocket
+
+### ★ socket v.s Websocket
   - {%post_link 用socket.io做個即時互動的遊戲(未完成)%}
   - {%post_link websocket%}
-- Deploy
+
+### ★ Deploy
   - {%post_link Heroku%}
-- Database
+
+### ★ Database
   - {%post_link nosql%}
   - {%post_link redis%}
-- Hybrid APP
+
+### ★ Hybrid APP
   - {%post_link local-Storage%}
   
