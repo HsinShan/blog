@@ -15,6 +15,7 @@ date: 2019-05-19 21:34:26
 <li>有行動版裝置介面開發經驗</li>
 <li>熟悉 API 串接</li></ul><ul class="more">
 <li>有Git版本控制經驗</li>
+<li>具備切版經驗</li>
 <li>會使用Photoshop繪製網站雛形</li>
 <li>有規劃及建置資料庫的經驗</li></ul>
 </div>
