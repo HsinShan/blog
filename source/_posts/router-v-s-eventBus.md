@@ -19,7 +19,7 @@ categories:
 
 ```javascript
  method(){
-	this.$bus.$emit(....);
+	this.$bus.emit(....);
  }
 ```
 
@@ -27,7 +27,7 @@ categories:
 
 ```javascript
  created(){
-　	this.$bus.$on(....);
+　	this.$bus.on(....);
  }
 ```
 
