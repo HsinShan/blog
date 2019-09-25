@@ -30,6 +30,9 @@ date: 2019-05-19 21:34:26
    </p><div><a href="https://github.com/HsinShan/Portfolio/tree/master/blog">原始碼</a></div></div></div>
     <div class="self_portfolio_block"><div class='self_img'><img src="./images/hotel.png" /></div><div class='self_info'><p><strong>飯店管理系統</strong></p><div> <a href="https://codepen.io/ShirleyHsieh/pen/bJPboe">DEMO</a></div></div></div>   
 </div>
+<div class="self_block"><div class="self_portfolio_block"><div class='self_img'><img src="images/LuckyDraw.png" /></div><div class='self_info'><p><strong>Lucky Draw System</strong></p><p>Vue.js+Firebase
+   </p><div><a href="https://crud-table-cb119.firebaseapp.com/">DEMO</a><a href="https://github.com/HsinShan/crud-table">原始碼</a></div></div></div>
+</div>
 <h5>Others</h5>
 <div class="self_block"><div class="self_portfolio_block"><div class='self_img'><img src="images/weather.jpg" /></div><div class='self_info'><p><strong>Weather</strong></p><div><a href="https://codepen.io/ShirleyHsieh/pen/LoEvZa">DEMO</a></div></div></div>  
 </div>
