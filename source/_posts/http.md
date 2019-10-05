@@ -13,6 +13,7 @@ date: 2019-05-05 03:49:18
 ## What is Http?
 
 HyperText Transfer Protocol 獲取網路資源的通訊協議 為一種 client-server 協議，由 client 端發起 request，由傳輸層中的 TCP 協議建立連接，及各種 Proxy(代理)轉發，最後 server 端回傳 response。 Proxy(代理)像是緩存、過濾、歷史紀錄等。
+屬於 OSI 7 層中的應用層
 
 **URI v.s. URL** URI=URL+URN(uniform resource name:類似於表示此 url 的身分)
 

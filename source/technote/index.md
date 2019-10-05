@@ -52,6 +52,7 @@ date: 2019-05-01 09:23:02
   - {%post_link drag-drop-draggable%}
   - {%post_link momentJS-warning%}
 - 計算機概論
+  好文推薦：[從傳紙條輕鬆學習基本網路概念](https://medium.com/@hulitw/learning-tcp-ip-http-via-sending-letter-5d3299203660)
   - {%post_link tcp-ip%}
   - {%post_link http%}
   - {%post_link http-cache%}
