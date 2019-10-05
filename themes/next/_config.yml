@@ -97,7 +97,7 @@ menu:
   # tags: /tags/ || tags
   # categories: /categories/ || th
   TechNote: /technote/ || list-alt
-  JavaScript Advanced: /JS-advanced/ || sticky-note
+  # JavaScript Advanced: /JS-advanced/ || sticky-note
   # Collection: /collection/ || server
   Archives: /archives/ || archive
   #commonweal: /404/ || heartbeat
