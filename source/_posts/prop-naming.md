@@ -7,7 +7,7 @@ categories:
   - vue
 ---
 
-父組件 =========(data) => 子組件
+父組件 =(data) => 子組件
 使用 prop 將 data 從父組件傳遞到子組件
 
 父組件

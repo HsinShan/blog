@@ -7,7 +7,7 @@ categories:
   - git
 ---
 
-刪掉 commit: `git revert<commit id>`
+**刪掉 commit**: `git revert<commit id>`
 
 移到指定 commit 狀態: `git reset` (用於快速移除 debug 時的一堆 `console.log.()`)
 

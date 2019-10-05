@@ -25,24 +25,30 @@ var y = test();
 y();
 ```
 
-特點:
+## Why Closure? (2019/09/23 更新修正)
 
-1. 可以建立類似物件導向的 private 變數，避免 global 變數發生重複更改而導致值的錯誤
-2. 資料隔離的效果
+1.用於**保存變數**，避免變數因為沒有被參照（refer) 而釋放記憶體  
+2.可建立私有方法(待補充)  
+3.可建立函式工廠(待補充)
+
+<!-- TODO: 更新 -->
 
 ```javascript
 function counter() {
   let count = 0; //private variable
-  function add() {
-    count++;
-  }
-  return add();
+  return function add() {
+    return count++;
+  };
 }
 var countDog = counter();
+// 建立一個專門屬狗有幾隻的 counter(獨立的執行環境）
+// function 中的 count 變數物專屬於狗的數量
 countDog(); // 1
 countDog(); // 2
 
 var countCat = counter();
+// 建立一個專門屬貓有幾隻的 counter(獨立的執行環境）
+// function 中的 count 變數物專屬於貓的數量
 countCat(); // 1
 countCat(); // 2
 ```

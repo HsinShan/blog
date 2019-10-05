@@ -9,6 +9,7 @@ categories:
 ---
 
 ## What is Vuex?
+
 `Vue` + flu`x` = `vuex`
 
 特性:
@@ -124,6 +125,15 @@ new Vue({
 **有些專案會將 state、mutations、getters、actions 個別獨立成檔放在 store 下**
 
 ## 注意
-**絕對不能在 mutation 之外的地方更動 state**，連 action 也不行。在 strict mode 下，會嚴格執行此規則，任何可能造成在mutation 之外更動 state 的情況，都會報錯（`Error: [vuex] do not mutate vuex store state outside mutation handlers.`)。
 
-且 mutation 必為同步更動，所以也不能在 mutation 中呼叫另一個 mutation，因此當遇到此狀況時，需要用action才可以同時進行兩個 mutation。
+**絕對不能在 mutation 之外的地方更動 state**，連 action 也不行。在 strict mode 下，會嚴格執行此規則，任何可能造成在 mutation 之外更動 state 的情況，都會報錯（`Error: [vuex] do not mutate vuex store state outside mutation handlers.`)。
+
+且 mutation 必為同步更動，所以也不能在 mutation 中呼叫另一個 mutation，因此當遇到此狀況時，需要用 action 才可以同時進行兩個 mutation。
+
+## Vuex v.s v-model (2019/06/15 更新)
+
+因為絕對不能在 mutation 之外的地方更動 state，所以當我們需要將 state 的值放入 v-model 時，是需要非常特別的處理。
+處理方式：  
+1.絕不放在 v-model 中，在放 value  
+2.雙向綁定計算屬性，將 get 和 set 設定為 vuex 的的處理方式
+參考文章：[[Vue.js] Vuex 學習筆記 (13) - 表單處理](https://jeremysu0131.github.io/Vue-js-Vuex-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-13-%E8%A1%A8%E5%96%AE%E8%99%95%E7%90%86/)
