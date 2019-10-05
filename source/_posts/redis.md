@@ -10,6 +10,7 @@ categories:
 ## What is Redis?
 
 Redis 為「快取資料庫」，為一個 in-memory 的 key-value database。in-memory 的意思是將 data 先存在 memory 上，之後再逐步或關機一次將 data 存入後端資料庫中，可以減輕後端資料庫面臨短時間湧入大量 data 的負擔。
+參考：{%post_link http-cache%}
 
 ## 優點
 
