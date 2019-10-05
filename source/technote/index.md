@@ -40,6 +40,7 @@ date: 2019-05-01 09:23:02
   - {%post_link js-eval%}
   - {%post_link debounce-and-throttle%}
   - {%post_link js-hoisting%}
+  - {%post_link js-event-loop%}
 - CSS
   - {%post_link css-flexbox%}
   - {%post_link background-image%}
